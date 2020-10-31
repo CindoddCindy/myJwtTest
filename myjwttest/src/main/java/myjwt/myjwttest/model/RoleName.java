@@ -1,4 +1,6 @@
 package myjwt.myjwttest.model;
 
-public class RoleName {
+public enum  RoleName {
+    ROLE_USER,
+    ROLE_ADMIN
 }
