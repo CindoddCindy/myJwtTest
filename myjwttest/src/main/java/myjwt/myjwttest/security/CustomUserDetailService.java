@@ -3,6 +3,7 @@ package myjwt.myjwttest.security;
 import myjwt.myjwttest.model.User;
 import myjwt.myjwttest.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
