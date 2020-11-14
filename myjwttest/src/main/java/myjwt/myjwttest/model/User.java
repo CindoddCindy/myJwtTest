@@ -44,9 +44,9 @@ public class User  extends DateAudit {
     private String password;
 
     @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "user_roles",joinColumns  = @JoinColumn(name="user_id"),
+    @JoinTable(name = "user_roles",joinColumns  = @JoinColumn(name="user_id"),//tabel user role yang di mana
                 inverseJoinColumns  = @JoinColumn(name="role_id"))
-                private Set<Role> roles = new HashSet<>();
+                private Set<Role> roles = new HashSet<>();//cek di postgree tabel tabelnya
 
     public User(){
 

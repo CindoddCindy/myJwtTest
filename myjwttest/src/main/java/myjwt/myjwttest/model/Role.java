@@ -27,7 +27,7 @@ public class Role {
     }
 
     public  void setId(Long id){
-        this.id = id;
+        this.id = id;//ini id dari mana
     }
 
     public RoleName getName(){
