@@ -1,6 +1,8 @@
 package myjwt.myjwttest.model;
 
-public class UserBuyBaggage {
+import myjwt.myjwttest.model.audit.DateAudit;
+
+public class UserBuyBaggage  extends DateAudit {
     private Long userBuyerId;
 
     private String userBuyerName;
